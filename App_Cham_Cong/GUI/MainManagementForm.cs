@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace App_Cham_Cong.GUI
 {
-    public partial class frmMain : Form
+    public partial class frmMainManagement : Form
     {
-        public frmMain()
+        public frmMainManagement()
         {
             InitializeComponent();
         }

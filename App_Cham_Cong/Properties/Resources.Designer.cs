@@ -103,6 +103,16 @@ namespace App_Cham_Cong.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_decentralization_25 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-decentralization-25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_edit_25 {
             get {
                 object obj = ResourceManager.GetObject("icons8-edit-25", resourceCulture);
@@ -173,9 +183,29 @@ namespace App_Cham_Cong.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_position_25 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-position-25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_setting {
             get {
                 object obj = ResourceManager.GetObject("icons8-setting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_sign_up_25 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-sign-up-25", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

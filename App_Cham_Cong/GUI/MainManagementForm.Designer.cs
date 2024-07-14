@@ -1,6 +1,6 @@
 ﻿namespace App_Cham_Cong.GUI
 {
-    partial class frmMain
+    partial class frmMainManagement
     {
         /// <summary>
         /// Required designer variable.
@@ -39,13 +39,6 @@
             this.pnMainSub = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pnInfoBOx = new System.Windows.Forms.Panel();
-            this.picInfoBox = new System.Windows.Forms.PictureBox();
-            this.btnDoiMKForm = new System.Windows.Forms.Button();
-            this.btnChinhSuaGioCongForm = new System.Windows.Forms.Button();
-            this.btnDuLieuChamCongForm = new System.Windows.Forms.Button();
-            this.btnBangLuongForm = new System.Windows.Forms.Button();
-            this.btnSapLichLamViecForm = new System.Windows.Forms.Button();
-            this.picAvtMember = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNameEmp = new System.Windows.Forms.TextBox();
@@ -53,6 +46,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtPositionEmp = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.picInfoBox = new System.Windows.Forms.PictureBox();
+            this.btnDoiMKForm = new System.Windows.Forms.Button();
+            this.btnChinhSuaGioCongForm = new System.Windows.Forms.Button();
+            this.btnDuLieuChamCongForm = new System.Windows.Forms.Button();
+            this.btnBangLuongForm = new System.Windows.Forms.Button();
+            this.btnSapLichLamViecForm = new System.Windows.Forms.Button();
+            this.picAvtMember = new System.Windows.Forms.PictureBox();
             this.pnMain.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnMainSub.SuspendLayout();
@@ -178,6 +178,73 @@
             this.pnInfoBOx.Size = new System.Drawing.Size(735, 388);
             this.pnInfoBOx.TabIndex = 1;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(22, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(218, 32);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Hồ sơ nhân viên";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(22, 99);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(137, 25);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Tên nhân viên";
+            // 
+            // txtNameEmp
+            // 
+            this.txtNameEmp.Enabled = false;
+            this.txtNameEmp.Location = new System.Drawing.Point(28, 137);
+            this.txtNameEmp.Name = "txtNameEmp";
+            this.txtNameEmp.Size = new System.Drawing.Size(212, 22);
+            this.txtNameEmp.TabIndex = 6;
+            this.txtNameEmp.Text = "Trần Quang Tuấn";
+            // 
+            // txtBirthdayEmp
+            // 
+            this.txtBirthdayEmp.Enabled = false;
+            this.txtBirthdayEmp.Location = new System.Drawing.Point(28, 218);
+            this.txtBirthdayEmp.Name = "txtBirthdayEmp";
+            this.txtBirthdayEmp.Size = new System.Drawing.Size(212, 22);
+            this.txtBirthdayEmp.TabIndex = 8;
+            this.txtBirthdayEmp.Text = "14/10/2003";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(22, 180);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 25);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Ngày sinh";
+            // 
+            // txtPositionEmp
+            // 
+            this.txtPositionEmp.Enabled = false;
+            this.txtPositionEmp.Location = new System.Drawing.Point(29, 307);
+            this.txtPositionEmp.Name = "txtPositionEmp";
+            this.txtPositionEmp.Size = new System.Drawing.Size(212, 22);
+            this.txtPositionEmp.TabIndex = 10;
+            this.txtPositionEmp.Text = "Quản Lý";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(23, 269);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 25);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Chức vụ";
+            // 
             // picInfoBox
             // 
             this.picInfoBox.Image = global::App_Cham_Cong.Properties.Resources.QUANG_TUẤN;
@@ -263,80 +330,13 @@
             this.picAvtMember.TabStop = false;
             this.picAvtMember.Click += new System.EventHandler(this.picAvtMember_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(22, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 32);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Hồ sơ nhân viên";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(22, 99);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 25);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Tên nhân viên";
-            // 
-            // txtNameEmp
-            // 
-            this.txtNameEmp.Enabled = false;
-            this.txtNameEmp.Location = new System.Drawing.Point(28, 137);
-            this.txtNameEmp.Name = "txtNameEmp";
-            this.txtNameEmp.Size = new System.Drawing.Size(212, 22);
-            this.txtNameEmp.TabIndex = 6;
-            this.txtNameEmp.Text = "Trần Quang Tuấn";
-            // 
-            // txtBirthdayEmp
-            // 
-            this.txtBirthdayEmp.Enabled = false;
-            this.txtBirthdayEmp.Location = new System.Drawing.Point(28, 218);
-            this.txtBirthdayEmp.Name = "txtBirthdayEmp";
-            this.txtBirthdayEmp.Size = new System.Drawing.Size(212, 22);
-            this.txtBirthdayEmp.TabIndex = 8;
-            this.txtBirthdayEmp.Text = "14/10/2003";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(22, 180);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 25);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Ngày sinh";
-            // 
-            // txtPositionEmp
-            // 
-            this.txtPositionEmp.Enabled = false;
-            this.txtPositionEmp.Location = new System.Drawing.Point(29, 307);
-            this.txtPositionEmp.Name = "txtPositionEmp";
-            this.txtPositionEmp.Size = new System.Drawing.Size(212, 22);
-            this.txtPositionEmp.TabIndex = 10;
-            this.txtPositionEmp.Text = "Quản Lý";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(23, 269);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(85, 25);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Chức vụ";
-            // 
-            // frmMain
+            // frmMainManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1010, 558);
             this.Controls.Add(this.pnMain);
-            this.Name = "frmMain";
+            this.Name = "frmMainManagement";
             this.Text = "MainManagementForm";
             this.Load += new System.EventHandler(this.MainManagementForm_Load);
             this.pnMain.ResumeLayout(false);

@@ -37,7 +37,11 @@ namespace App_Cham_Cong
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            frmMain main = new frmMain();
+            //frmMainManagement main = new frmMainManagement();
+            //this.Hide();
+            //main.ShowDialog();
+
+            frmMainAdmin main  = new frmMainAdmin();
             this.Hide();
             main.ShowDialog();
         }

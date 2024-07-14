@@ -46,6 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GUI\AccountManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\AccountManagementForm.Designer.cs">
+      <DependentUpon>AccountManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ChangePasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ChangePasswordForm.Designer.cs">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DayShiftForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DayShiftForm.Designer.cs">
+      <DependentUpon>DayShiftForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EmployeesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EmployeesForm.Designer.cs">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GroupManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\GroupManagementForm.Designer.cs">
+      <DependentUpon>GroupManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainAdminForm.Designer.cs">
+      <DependentUpon>MainAdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\MainManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +102,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\AccountManagementForm.resx">
+      <DependentUpon>AccountManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DayShiftForm.resx">
+      <DependentUpon>DayShiftForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EmployeesForm.resx">
+      <DependentUpon>EmployeesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\GroupManagementForm.resx">
+      <DependentUpon>GroupManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainAdminForm.resx">
+      <DependentUpon>MainAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\MainManagementForm.resx">
       <DependentUpon>MainManagementForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +207,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\QUANG TUẤN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons8-sign-up-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons8-decentralization-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icons8-position-25.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
